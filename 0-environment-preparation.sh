@@ -110,5 +110,5 @@ sudo bash -c 'echo "127.0.0.1 ubuntu-box.k3s.lab ubuntu-box" >>/etc/hosts'
 ##############################################################
 
 # curl -sSL -o falcon-container-sensor-pull.sh "https://raw.githubusercontent.com/CrowdStrike/falcon-scripts/main/bash/containers/falcon-container-sensor-pull/falcon-container-sensor-pull.sh"
-cd /home/ubuntu && { curl -sSL - O "https://raw.githubusercontent.com/CrowdStrike/falcon-scripts/main/bash/containers/falcon-container-sensor-pull/falcon-container-sensor-pull.sh" ; cd -; }
+cd /home/ubuntu && { curl -sSL -O "https://raw.githubusercontent.com/CrowdStrike/falcon-scripts/main/bash/containers/falcon-container-sensor-pull/falcon-container-sensor-pull.sh" ; cd -; }
 chmod +x /home/ubuntu/falcon-container-sensor-pull.sh
